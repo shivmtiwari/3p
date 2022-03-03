@@ -1,364 +1,391 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-
-
-    <title>3P Brains | Healthcare Plateform</title>
+  <meta charset="UTF-8">
+  <title> Responsive Portfolio Website | CodingLab </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <nav>
-        <div class="nav-bar">
-
-            <i class='bx bx-menu sidebarOpen'></i>
-            <a href="" class="logo navLogo">3P <span>Brains</span></a>
-           
-
-            <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="#">3P Brains</a></span>
-                    <i class='bx bx-x siderbarClose'></i>
-                </div>
-
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="darkLight">
-                <div class="dark-light">
-                    <i class="fa-solid fa-moon"></i>
-                    <i class="fa-solid fa-sun"></i>
-
-                </div>
-
-            </div>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <!-- <a href="#home"><i class="fas fa-arrow-up"></i></a> -->
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#"> <i class="fab fa-slack"></i> 3P Brains</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
         </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <!-- <a href="">0000000000</a> -->
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- =============================== popup =================================== -->
+  <div class="popup-screen">
+    <div class="popup-box">
+      <i class="fas fa-times close-btn"></i>
+      <h2>Not Feeling Well ?</h2>
+      <p>Send a message our team will contact you within 24 Hours</p>
+      <form action="#" method="post">
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="name" placeholder="Enter your name">
+          </div>
+          <div class="field">
+            <input type="text" name="email" placeholder="Enter your email">
+          </div>
         </div>
-    </nav>
-
-  <!-- ======================================================================================================================================================== -->
-<!-- home section starts -->
-<section class="home" id="home">
-    <div class="image">
-        <img src="images/Removal-564.png" alt="">
-    </div>
-
-    <div class="content">
-        <h3>Welcome To 3P Brains </h3>
-        <p>You Can't Pretent You're Okay</p>
-        <a href="#" class="btn">Book a free session</a>
-    </div>
-</section>
-<!-- home section ends -->
-
-
-<!-- icons section starts  -->
-<div class="icon-1">
-
-<section class="icons-container">
-<div class="icons">
-<i class="fas fa-user-md"></i>
-<h3 class="num" data-val="10">00</h3>
-<p>doctors at work</p>
-</div>
-
-<div class="icons">
-<i class="fas fa-users"></i>
-<h3 class="num" data-val="250">000</h3>
-<p>satisfied patients</p>
-</div>
-
-<div class="icons">
-<i class="fas fa-procedures"></i>
-<h3 class="num" data-val="15">000</h3>
-<p>bed facility</p>
-</div>
-
-</section>
-</div>
-<!-- icons section ends -->
-
-
-
-
-
-
-
-
-
-
-
-    <!-- ======================================================================================================================================================== -->
-
-
-    <!-- <div class="about" id="about">
-        <section class="container">
-            <h1>About <span>Us</span></h1>
-        </section>
-    </div>
-
-    <div class="services" id="Services">
-        <section class="container1">
-            <h1>Our <span>Services</span></h1>
-
-        </section>
-    </div> -->
-
-    <!-- ========================================================= -->
-
-    <div class="team" id="team">
-        <section class="container1">
-            <h1>Our <span>Team</span></h1>
-            <p>Meet Our Team</p>
-            <div class="container">
-                <input type="radio" name="dot" id="one">
-                <input type="radio" name="dot" id="two">
-                <div class="main-card">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/dp.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="name">Shubham</div>
-                                    <div class="job">Founder & CEO</div>
-                                </div>
-                                <div class="media-icons">
-                                    
-                                    <a href="https://www.linkedin.com/in/subham-swami-6368b8193/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://twitter.com/shubhamdansroli" target="_blank"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.instagram.com/shubhamdansroli/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://www.facebook.com/TheSwamiSikar/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                             </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/dp.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="name">Shivam Tiwari</div>
-                                    <div class="job">Web Developer</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/dp.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="name">Swapnil</div>
-                                    <div class="job">Operation Officer</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/dp.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="name">4</div>
-                                    <div class="job">Your job</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/dp.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="name"> 5</div>
-                                    <div class="job">Your job</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/dp.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="name">6</div>
-                                    <div class="job">Your job</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="button">
-                    <label for="one" class=" active one"></label>
-                    <label for="two" class="two"></label>
-                </div>
-            </div>
-
-        </section>
-    </div>
-
-    <!-- ================================================= -->
-
-
-    <div class="blog" id="blog">
-        <section class="container1 container">
-            <h1>Our <span>Blogs</span></h1>
-            <p>Read Our Latest Blogs</p>
-            <div class="container">
-                <div class="main-card1">
-                    <div class="cards">
-                        <div class="card1">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/ocd-types.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="title">Types Of OCD</div>
-                                    <div class="job">OCD is a disorder where patient feels obsessions about certain things which are usually followed by compulsions or rituals....
-</div>
-                                </div>
-                                <a class="btn" href="3p blogs/blog.html" target="_blank">Show More</a>
-                            </div>
-                        </div>
-                        <div class="card1">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/blog.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="title">This is blog title</div>
-                                    <div class="job">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                                        pariatur!</div>
-                                </div>
-                                <a class="btn" href="">Show More</a>
-                            </div>
-                        </div>
-                        <div class="card1">
-                            <div class="content">
-                                <div class="img">
-                                    <img src="images/blog.jpg" alt="">
-                                </div>
-                                <div class="details">
-                                    <div class="title">This is blog title</div>
-                                    <div class="job">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                                        pariatur!</div>
-                                </div>
-                                <a class="btn" href="">Show More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-    </div>
-    </section>
-    </div>
-
-    
-
-<!-- ==================<footer================================= -->
-
-    <footer class="footer">
-        <div class="container2">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>3P Brains</h4>
-                    <ul>
-                        <li><a href="mailto:3pbrains@gmail.com"   target="_blank">3pbrains@gmail.com</a></li>
-                        <li><a href="tel:+91 93525 11544"> +91 93525 11544</a></li>
-                        <li><a href="#"> </a></li>
-                        <li><a href="#"> </a></li>
-                    </ul>
-                </div>
-                <!-- <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
-                    </ul>
-                </div> -->
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="phone" placeholder="Enter your phone">
+          </div>
+          <!-- <div class="field">
+            <input type="text" name="website" placeholder="Enter your website">
+          </div> -->
         </div>
-    </footer>
+        <div class="message">
+          <textarea placeholder="Write your message" name="message"></textarea>
+          <!-- <i class="material-icons">message</i> -->
+        </div>
+        <div class="button-area">
+          <button type="submit">Send Message</button>
+          <span></span>
+        </div>
+      </form>
+    </div>
+  </div>
 
-    <script src="js/web.js"></script>
 
+  <section class="home" id="home">
+    <div class="row">
+      <div class="col-1">
+        <h2>Welcome To 3P Brains</h2>
+        <h3> <blockquote> You Can't PRETEND You're Okay.</blockquote></h3>
+        <h4>We Making professional therapy accessible, affordable, and convenient — so anyone who struggles with life’s challenges can get help, anytime and anywhere.</h4>
+        <p>We recommend you please take self diagnosis text and know about you mental health! these tests are totally free.</p>
+        <a href="">Take Self diagnosis Test</a>
+      </div>
+      <div class="col-2">
+        <img src="img/Online Doctor-amico.svg" class="home-img" alt="">
+        <div class="color-box">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="records">
+    <div class="overlay overlay-sm">
+      <img src="img/shapes/square.png" alt="" class="shape square1" />
+      <img src="img/shapes/square.png" alt="" class="shape square2" />
+      <img src="img/shapes/circle.png" alt="" class="shape circle" />
+      <img src="img/shapes/half-circle.png" alt="" class="shape half-circle" />
+      <img src="img/" alt="" class="shape wave wave1" />
+      <img src="img/shapes/wave.png" alt="" class="shape wave wave2" />
+      <img src="img/shapes/x.png" alt="" class="shape xshape" />
+      <img src="img/shapes/triangle.png" alt="" class="shape triangle" />
+    </div>
+
+    <div class="container">
+      <div class="wrap">
+        <div class="record-circle">
+          <h2 class="number" data-num="235">10+</h2>
+          <h4 class="sub-title">Doctors</h4>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="record-circle active">
+          <h2 class="number" data-num="174">100+</h2>
+          <h4 class="sub-title">Happy Clients</h4>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="record-circle">
+          <h2 class="number" data-num="892">200+</h2>
+          <h4 class="sub-title">Community Members</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="community" id="services">
+    <h3>Services We Offer</h3>
+    <div class="wrapper">
+      <div class="card ">
+        <div class="card-img">
+          <img src="img/Anxiety.svg" alt="">
+        </div>
+        <div class="card-content">
+          <h2>Counseling for OCD </h2>
+          <p></p>
+        </div>
+
+        <a href="https://api.whatsapp.com/send?phone=919352511544" target="_blank" class="btn ">Get Started</a>
+      </div>
+      <div class="card">
+        <div class="card-img img2">
+          <img src="img/anx.svg" alt="">
+        </div>
+        <div class="card-content">
+          <h2>Counseling for Anxiety</h2>
+          <p></p>
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=919352511544" target="_blank" class="btn ">Get Started</a>
+
+      </div>
+      <div class="card ">
+        <div class="card-img">
+          <img src="img/depression.svg" alt="">
+        </div>
+        <div class="card-content">
+          <h2>Counseling for Depression </h2>
+          <p></p>
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=919352511544" target="_blank" class="btn ">Get Started</a>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  
+
+
+  <section class="faq">
+    <h3>FAQs</h3>
+    <div class="accordion">
+      <div class="image-box">
+        <img src="img/faq.svg" alt="Accordion Image">
+      </div>
+      <div class="accordion-text">
+        <ul class="faq-text">
+          <li>
+            <div class="question-arrow">
+              <span class="question">What do you mean by HTML & CSS?</span>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloribus.</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">What do you mean by JavaScript?</span>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows
+              you to make web pages interactive</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">From where you learned HTML & CSS?</span>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, necessitatibus.</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">Which code editor do you use?</span>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, labore.</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">Software you use for video editing?</span>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, repudiandae!</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">Software you use for video editing?</span>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, repudiandae!</p>
+            <span class="line"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+
+    <div class="footer-cont">
+      <div class="grid-4">
+        <div class="grid-4-col footer-about">
+          <h3 class="title-sm">About</h3>
+          <p class="text">
+            We are team of Psychiatrist and Psychologists working Towards Mental Health Solutions. We provide online
+            diagnosis and Online Consultation with Our Best and Experienced Psychologists and Psychiatrists at
+            Affordable prices.
+          </p>
+        </div>
+        <div class="grid-4-col footer-links">
+          <h3 class="title-sm">Links</h3>
+          <ul>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Team</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#testimonials">Blog</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <h3 class="title-sm">Services</h3>
+          <ul>
+            <li>
+              <a href="#">Service</a>
+            </li>
+            <li>
+              <a href="#">Service</a>
+            </li>
+            <li>
+              <a href="#">Service</a>
+            </li>
+            <li>
+              <a href="#">Service</a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-4-col footer-about">
+          <h3 class="title-sm">Address</h3>
+          <p class="text">Jaipur Rajasthan,</p>
+          <p class="text">302004</p>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <h3 class="title-sm">Contact</h3>
+          <li>
+            <a href="mailto: contact@3pbrains.com" target="_blank">contact@3pbrains.com</a>
+          </li>
+          <li>
+            <a href="#">9130215647</a>
+          </li>
+        </div>
+
+
+        <!-- <div class="grid-4-col footer-newstletter">
+          <h3 class="title-sm">Contact Us</h3>
+          <p class="text">
+          Subscribe Us And Get Notifications Of Latest Blogs.
+          </p>
+          <div class="footer-input-wrap">
+            <input type="email" class="footer-input" placeholder="Email" />
+            <a href="#" class="input-arrow">
+              <i class="fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div> -->
+
+      </div>
+      <div class="diclaimer">
+        <h2>Disclaimer</h2>
+        <p>This service does not give medical advice and does not oblige any medical or psychiatric emergencies. In the event that you are in a dangerous life-threatening circumstance, kindly don't use this site. In the event that you are feeling suicidal, we suggest you call a suicide prevention helpline or go to your closest doctor's facility.</p>
+      </div>
+
+
+
+      <div class="bottom-footer">
+        <div class="copyright">
+          <p class="text">
+            Copyright&copy;2022 <span>3P Brains</span> All rights reserved.
+
+          </p>
+        </div>
+
+        <div class="followme-wrap">
+          <div class="followme">
+            <h3>Follow Us</h3>
+            <span class="footer-line"></span>
+            <div class="social-media">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+
+    // faq script
+
+    let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+      li[i].addEventListener("click", (e) => {
+        let clickedLi;
+        if (e.target.classList.contains("question-arrow")) {
+          clickedLi = e.target.parentElement;
+        } else {
+          clickedLi = e.target.parentElement.parentElement;
+        }
+        clickedLi.classList.toggle("showAnswer");
+      });
+    }
+  </script>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
